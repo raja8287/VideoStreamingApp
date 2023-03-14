@@ -1,0 +1,173 @@
+body{
+  background-color: rgb(39, 37, 37);
+text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  width: auto;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.App {
+  justify-content: center;
+align-items: center;
+text-align: center;
+  margin: auto;
+width: 80%;
+}
+#Nav{
+  align-items: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.479);
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  column-gap: 10%;
+
+}
+#Nav div{
+  color: white;
+  border-radius:100px ;
+  padding:0 2px;
+}
+#Nav input{
+  width: 60%;
+  background-color:gray ;
+  color: black;
+  border: none;
+  padding:4% 3%;
+  border-end-start-radius:10px ;
+  border-start-start-radius:10px ;
+  border: 1px solid rgb(74, 72, 72);
+
+}
+#Nav button{
+  border-start-end-radius:10px ;
+  border-end-end-radius:10px ;
+  border: none;
+  padding: 4% 5%;
+  width: 30%;
+  background-color: rgb(74, 72, 72);
+}
+
+#Nav div :hover{
+background-color: rgb(74, 72, 72);
+border-radius:100px ;
+padding: 8px 0px;
+color: white;
+}
+#Nav input:hover{
+  background-color: rgb(74, 72, 72);
+  padding:4% 3%;
+    border-start-end-radius:10px ;
+  border-end-end-radius:10px ;
+  border: 1px solid rgb(74, 72, 72);
+}
+#Nav button:hover{
+  background-color: rgb(96, 94, 95);
+  border-end-start-radius:10px ;
+  border-start-start-radius:10px ;
+  padding: 4% 5%;
+  border: none;
+  color: blue;
+
+
+}
+
+#Nav button:focus{
+  color: white;
+}
+#ham{
+  display: none;
+}
+
+@media only screen and (max-width:900px){
+  .App{
+    width: 100%;
+  }
+  #Nav{
+    position: absolute;
+    display: inline-block;
+    
+    width: 50%;
+    height: 500px;
+    transition:all 0.3s ease-in-out;
+  
+    
+    
+  }
+  #Nav div{
+    transition:all 0.3s ease-in-out;
+    margin-top: 10%;
+    padding: 10px ;
+    background-color: black;
+  }
+  #Nav input{
+    padding: 6px;
+  }
+  #Nav button{
+    padding: 6px;
+  }
+ #ham{
+ margin: auto;
+ align-items: center;
+  background-color: black;
+  height: 30%;
+  width: 100%;
+  display: block;
+  color: white;
+
+  
+ }
+ #ham span{
+  margin-left:45% ;
+  cursor: pointer;
+ }
+
+ #ham span:active{
+  border-radius: 100px;
+  background-color: gray;
+  color: rgb(110, 110, 110);
+  padding: 2px 4px ;
+ }
+
+
+
+ #ham input{
+  margin: auto;
+  background-color:gray ;
+  color: white;
+  border: none;
+  padding:0.7% 9px;
+  border-end-start-radius:10px ;
+  border-start-start-radius:10px ;
+  border: 1px solid rgb(74, 72, 72);
+ }
+ #ham button{
+  width: 28px;
+  color: white;
+  border-start-end-radius:10px ;
+  border-end-end-radius:10px ;
+  border: none;
+  padding:0.7% 2px;
+  background-color: rgb(74, 72, 72);
+ }
+ #in{
+  display: none;
+ }
+
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;  
+}
+
+.main_video{
+width: 50%;
+}
