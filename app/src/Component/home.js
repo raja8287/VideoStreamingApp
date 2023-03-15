@@ -32,7 +32,7 @@ function Home(){
         <Link to="/" style={{textDecoration:"none",color:"gray"}}>Home</Link>
         </div>
         <div>
-            <Link to="/Videos" style={{textDecoration:"none",color:"gray"}}>Videos</Link>
+            <Link to="/Videos" style={{textDecoration:"none",color:"gray"}}> Upload Videos</Link>
         </div>
         <div style={{background:'rgba(0, 0, 0, 0.479)' }} id="in">
 
